@@ -1,0 +1,36 @@
+[03-Feb-2021 19:12:33 UTC] PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 20 in C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-content\plugins\stylist\lib\class-stylist-class-manager.php on line 213
+[03-Feb-2021 19:12:33 UTC] PHP Stack trace:
+[03-Feb-2021 19:12:33 UTC] PHP   1. {main}() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-admin\plugin-editor.php:0
+[03-Feb-2021 19:12:33 UTC] PHP   2. require_once() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-admin\plugin-editor.php:10
+[03-Feb-2021 19:12:33 UTC] PHP   3. do_action() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-admin\admin.php:175
+[03-Feb-2021 19:12:33 UTC] PHP   4. WP_Hook->do_action() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-includes\plugin.php:484
+[03-Feb-2021 19:12:33 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-includes\class-wp-hook.php:311
+[03-Feb-2021 19:12:33 UTC] PHP   6. Stylist_Class_Manager->check_cleanup_queue() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-includes\class-wp-hook.php:287
+[03-Feb-2021 19:12:33 UTC] PHP   7. Stylist_Class_Manager->remove_temporary_classes_on_page_load() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-content\plugins\stylist\lib\class-stylist-class-manager.php:183
+[03-Feb-2021 19:12:33 UTC] PHP   8. Stylist_Class_Manager->remove_temporary_classes() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-content\plugins\stylist\lib\class-stylist-class-manager.php:156
+[03-Feb-2021 19:12:33 UTC] PHP   9. preg_replace() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-content\plugins\stylist\lib\class-stylist-class-manager.php:213
+[03-Feb-2021 19:12:33 UTC] PHP Warning:  preg_replace(): Compilation failed: invalid range in character class at offset 13 in C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-content\plugins\stylist\lib\class-stylist-class-manager.php on line 219
+[03-Feb-2021 19:12:33 UTC] PHP Stack trace:
+[03-Feb-2021 19:12:33 UTC] PHP   1. {main}() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-admin\plugin-editor.php:0
+[03-Feb-2021 19:12:33 UTC] PHP   2. require_once() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-admin\plugin-editor.php:10
+[03-Feb-2021 19:12:33 UTC] PHP   3. do_action() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-admin\admin.php:175
+[03-Feb-2021 19:12:33 UTC] PHP   4. WP_Hook->do_action() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-includes\plugin.php:484
+[03-Feb-2021 19:12:33 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-includes\class-wp-hook.php:311
+[03-Feb-2021 19:12:33 UTC] PHP   6. Stylist_Class_Manager->check_cleanup_queue() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-includes\class-wp-hook.php:287
+[03-Feb-2021 19:12:33 UTC] PHP   7. Stylist_Class_Manager->remove_temporary_classes_on_page_load() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-content\plugins\stylist\lib\class-stylist-class-manager.php:183
+[03-Feb-2021 19:12:33 UTC] PHP   8. Stylist_Class_Manager->remove_temporary_classes() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-content\plugins\stylist\lib\class-stylist-class-manager.php:156
+[03-Feb-2021 19:12:33 UTC] PHP   9. preg_replace() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-content\plugins\stylist\lib\class-stylist-class-manager.php:219
+[03-Feb-2021 19:12:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-content\plugins\stylist\lib\class-stylist-class-manager.php:213) in C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-admin\includes\misc.php on line 1310
+[03-Feb-2021 19:12:33 UTC] PHP Stack trace:
+[03-Feb-2021 19:12:33 UTC] PHP   1. {main}() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-admin\plugin-editor.php:0
+[03-Feb-2021 19:12:33 UTC] PHP   2. require_once() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-admin\plugin-editor.php:10
+[03-Feb-2021 19:12:33 UTC] PHP   3. do_action() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-admin\admin.php:175
+[03-Feb-2021 19:12:33 UTC] PHP   4. WP_Hook->do_action() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-includes\plugin.php:484
+[03-Feb-2021 19:12:33 UTC] PHP   5. WP_Hook->apply_filters() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-includes\class-wp-hook.php:311
+[03-Feb-2021 19:12:33 UTC] PHP   6. wp_admin_headers() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-includes\class-wp-hook.php:287
+[03-Feb-2021 19:12:33 UTC] PHP   7. header() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-admin\includes\misc.php:1310
+[03-Feb-2021 19:12:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-content\plugins\stylist\lib\class-stylist-class-manager.php:213) in C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-admin\admin-header.php on line 9
+[03-Feb-2021 19:12:33 UTC] PHP Stack trace:
+[03-Feb-2021 19:12:33 UTC] PHP   1. {main}() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-admin\plugin-editor.php:0
+[03-Feb-2021 19:12:33 UTC] PHP   2. require_once() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-admin\plugin-editor.php:154
+[03-Feb-2021 19:12:33 UTC] PHP   3. header() C:\Users\Welington Martins\Local Sites\up-releases\app\public\wp-admin\admin-header.php:9
