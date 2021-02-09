@@ -1,0 +1,1 @@
+[08-Feb-2021 14:09:59 UTC] PHP Parse error:  syntax error, unexpected 'get_template_part' (T_STRING), expecting ',' or ';' in /home/wmartins/Local Sites/up-releases-20210205t121802z-001/app/public/wp-content/themes/twentytwentyone/index.php on line 25
