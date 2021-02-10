@@ -3,3 +3,11 @@
 [05-Feb-2021 17:21:43] NOTICE: Terminating ...
 [08-Feb-2021 09:26:38] NOTICE: fpm is running, pid 4991
 [08-Feb-2021 09:26:38] NOTICE: ready to handle connections
+[10-Feb-2021 09:18:53] ERROR: Another FPM instance seems to already listen on /home/wmartins/.config/Local/run/zJ1n5Kq7a/php/php-fpm.socket
+[10-Feb-2021 09:18:53] ERROR: FPM initialization failed
+[10-Feb-2021 09:18:53] ERROR: Another FPM instance seems to already listen on /home/wmartins/.config/Local/run/zJ1n5Kq7a/php/php-fpm.socket
+[10-Feb-2021 09:18:53] ERROR: FPM initialization failed
+[10-Feb-2021 09:18:54] ERROR: Another FPM instance seems to already listen on /home/wmartins/.config/Local/run/zJ1n5Kq7a/php/php-fpm.socket
+[10-Feb-2021 09:18:54] ERROR: FPM initialization failed
+[10-Feb-2021 09:18:54] ERROR: Another FPM instance seems to already listen on /home/wmartins/.config/Local/run/zJ1n5Kq7a/php/php-fpm.socket
+[10-Feb-2021 09:18:54] ERROR: FPM initialization failed

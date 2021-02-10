@@ -346,6 +346,9 @@ Twenty Twenty-One is distributed under the terms of the GNU GPL.
 
   /* Admin-bar height */
   --global--admin-bar--height: 0;
+
+  /* Content & Post */
+  --content-main-color: #ffffff;
 }
 
 .admin-bar {
@@ -400,6 +403,7 @@ body {
  */
 main {
   display: block;
+  margin-top: 30px;
 }
 
 /**
@@ -2808,7 +2812,7 @@ ul,
 ol {
   font-family: var(--list--font-family);
   margin: 0;
-  padding-left: calc(2 * var(--global--spacing-horizontal));
+  padding-left: calc(1 * var(--global--spacing-horizontal));
 }
 
 ul.aligncenter,
@@ -4134,12 +4138,30 @@ div.post__content {
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
+  color: var(--content-main-color);
 }
 
 div.post__content > * {
-  margin: 15px auto;
-  width: 100%;
+  margin-bottom: 15px;
 }
+
+div.post__content p {
+  color: var(--global--color-primary);
+}
+
+div.post__date {
+  text-transform: uppercase;
+    font-size: 2rem;
+    color: var(--global--color-second-orange);
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+div.post__date svg {
+  margin-right: 25px;
+}
+
 
 .mastnav {
   width: 100%;
