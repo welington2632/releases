@@ -20,5 +20,11 @@ $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
 </header><!-- #masthead -->
 
 <div class="mastnav">
-<?php echo do_shortcode( '[searchandfilter fields="post_tag,category,post_date,search" hierarchical=",1" types="checkbox,,daterange," search_placeholder="Pesquisar"]' ); ?>
+<?php echo do_shortcode( '[searchandfilter fields="search" hierarchical=",1" search_placeholder="Pesquisar"]' ); ?>
+</div>
+
+
+<div class="filterBox">
+	<span id="title">Filtros avançados</span>
+	<?php echo do_shortcode( '[searchandfilter fields="post_tag,category" hierarchical=",1" types="checkbox,checkbox"]' ); ?>	
 </div>

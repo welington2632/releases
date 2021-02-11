@@ -11,3 +11,11 @@
 [10-Feb-2021 09:18:54] ERROR: FPM initialization failed
 [10-Feb-2021 09:18:54] ERROR: Another FPM instance seems to already listen on /home/wmartins/.config/Local/run/zJ1n5Kq7a/php/php-fpm.socket
 [10-Feb-2021 09:18:54] ERROR: FPM initialization failed
+[11-Feb-2021 10:39:21] ERROR: Another FPM instance seems to already listen on /home/daleixo/.config/Local/run/ERW-pwfAd/php/php-fpm.socket
+[11-Feb-2021 10:39:21] ERROR: FPM initialization failed
+[11-Feb-2021 10:39:21] ERROR: Another FPM instance seems to already listen on /home/daleixo/.config/Local/run/ERW-pwfAd/php/php-fpm.socket
+[11-Feb-2021 10:39:21] ERROR: FPM initialization failed
+[11-Feb-2021 10:39:22] ERROR: Another FPM instance seems to already listen on /home/daleixo/.config/Local/run/ERW-pwfAd/php/php-fpm.socket
+[11-Feb-2021 10:39:22] ERROR: FPM initialization failed
+[11-Feb-2021 10:39:22] ERROR: Another FPM instance seems to already listen on /home/daleixo/.config/Local/run/ERW-pwfAd/php/php-fpm.socket
+[11-Feb-2021 10:39:22] ERROR: FPM initialization failed

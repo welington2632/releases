@@ -6299,3 +6299,71 @@ footer {
 .is-IE .post-thumbnail .wp-post-image {
   min-width: auto;
 }
+
+
+/* filter custom style */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+.filterBox {
+    position: absolute;
+    background-color: #0e0e0e;
+    width: 49%;
+    height: 100%;
+	margin: 0; 
+	padding: 0; 
+	margin-bottom: 1.25em; 
+	padding: .125em; 
+	background: #0E0E0E;
+	border: 1px solid #151515;
+	box-sizing: border-box;
+}
+
+.filterBox > span#title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+	padding-left: calc(1 * var(--global--spacing-horizontal));
+}
+
+.filterBox ul > li > ul{
+	margin: 0; 
+	padding: 0; 
+	margin-left: 20px; 
+	list-style: none; 
+}
+
+.filterBox ul li > ul > li{
+	border: 1px transparent solid; 
+	display:inline-block;
+	width:12em;
+}
+
+.filterBox ul li > ul > li  input[type='checkbox'],input[type='radio']{
+    margin-right: .25em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #858585;
+    border-radius: 1px;
+    background: #0e0e0e;
+}
+
+.filterBox ul li > ul > li > label { 
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+} 
+
+.filterBox ul li > ul > li:hover, 
+.filterBox ul li > ul > li.focus  { 
+  border: 1px gray solid; 
+  width: 12em; 
+} 
