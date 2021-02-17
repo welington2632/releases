@@ -25,6 +25,11 @@ $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
 
 
 <div class="filterBox">
-	<span id="title">Filtros avançados</span>
-	<?php echo do_shortcode( '[searchandfilter fields="post_tag,category" hierarchical=",1" types="checkbox,checkbox"]' ); ?>	
+	<div class="closebtn">
+		<a href="javascript:void(0)" id="openCloseClick" onclick="toggleFilterBox()">×</a>
+	</div>
+	<div id="filterBoxContent" class="hide">
+		<span id="title">Filtros avançados</span>
+		<?php echo do_shortcode( '[searchandfilter fields="post_tag,category" hierarchical=",1" types="checkbox,checkbox"]' ); ?>	
+	</div>
 </div>

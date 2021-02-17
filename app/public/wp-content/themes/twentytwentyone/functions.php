@@ -608,3 +608,25 @@ function twentytwentyone_add_ie_class() {
 	<?php
 }
 add_action( 'wp_footer', 'twentytwentyone_add_ie_class' );
+
+function wpb_hook_javascript() {
+    ?>
+		<script type="text/javascript">  
+			function toggleFilterBox() {
+				var filterBoxContent = document.getElementById("filterBoxContent");
+				var width = document.getElementsByClassName("filterBox")[0].style.width;
+				
+				if(width == '0px' || width == '0' || width == ''){
+					document.getElementsByClassName("filterBox")[0].style.width = '50%';
+// 					document.getElementById("filterBoxContent").style.display = 'block';			
+          			filterBoxContent.classList.remove("hide");
+				} else {
+					document.getElementsByClassName("filterBox")[0].style.width = '0';
+// 					document.getElementById("filterBoxContent").style.display = 'none';			
+          			filterBoxContent.classList.add("hide");
+				}
+			}
+		</script>
+    <?php
+}
+add_action('wp_head', 'wpb_hook_javascript');
