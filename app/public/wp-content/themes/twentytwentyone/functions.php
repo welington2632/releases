@@ -608,3 +608,40 @@ function twentytwentyone_add_ie_class() {
 	<?php
 }
 add_action( 'wp_footer', 'twentytwentyone_add_ie_class' );
+
+function wpb_hook_javascript() {
+    ?>
+		<script type="text/javascript"> 
+			
+			window.onload = function() { 
+				if(window.location.href.substr(window.location.href.length - 3, 3) == "?s="){
+					window.location.href = window.location.href.substr(0, window.location.href.length - 3);
+				}
+				
+				document.querySelectorAll('#filterBoxContent > .searchandfilter input[type=submit]')
+					.forEach(input => {
+					input.style.display = 'none';
+				})
+
+				document.querySelectorAll('#filterBoxContent > .searchandfilter input[type=checkbox]')
+					.forEach(cb => {
+					cb.setAttribute("onchange", 'this.form.submit();');
+				})
+			}
+				
+			function toggleFilterBox() {
+				var filterBoxContent = document.getElementById("filterBoxContent");
+				var width = document.getElementsByClassName("filterBox")[0].style.width;
+				
+				if(width == '0px' || width == '0' || width == ''){
+					document.getElementsByClassName("filterBox")[0].style.width = '50%';		
+          			filterBoxContent.classList.remove("hide");
+				} else {
+					document.getElementsByClassName("filterBox")[0].style.width = '0';		
+          			filterBoxContent.classList.add("hide");
+				}
+			}
+		</script>
+    <?php
+}
+add_action('wp_head', 'wpb_hook_javascript');

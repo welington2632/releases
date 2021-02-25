@@ -6299,3 +6299,108 @@ footer {
 .is-IE .post-thumbnail .wp-post-image {
   min-width: auto;
 }
+
+
+/* filter custom style */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+.filterBox {
+    position: absolute;
+    background-color: #0e0e0e;
+    width: 0;
+    height: 100%;
+	margin: 0; 
+	padding: 0; 
+	margin-bottom: 1.25em; 
+	padding: .125em; 
+	background: #0E0E0E;
+	border: 1px solid #151515;
+	box-sizing: border-box;
+	transition: width 1s ease-in-out;
+}
+
+#filterBoxContent {
+    opacity: 1;
+    transition: opacity .3s linear;
+	transition-delay: .7s;
+}
+
+#filterBoxContent.hide {
+    opacity: 0;
+    pointer-events: none;
+	transition-delay: .1s;
+}
+
+.filterBox a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFFF;
+  display: block;
+  transition: 0.3s;
+}
+
+/* .filterBox a:hover {
+  color: #f1f1f1;
+} */
+
+.filterBox .closebtn {
+position: absolute;
+    top: 0px;
+    right: -39px;
+    font-size: 36px;
+    background-color: #696969;
+    height: 38px;
+    width: 38px;
+    padding: 0px 11px 0px 10px;
+    text-align: center;
+}
+
+.filterBox > span#title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+	padding-left: calc(1 * var(--global--spacing-horizontal));
+}
+
+.filterBox ul > li > ul{
+	margin: 0; 
+	padding: 0; 
+	margin-left: 20px; 
+	list-style: none; 
+}
+
+.filterBox ul li > ul > li{
+	border: 1px transparent solid; 
+	display:inline-block;
+	width:12em;
+}
+
+.filterBox ul li > ul > li  input[type='checkbox'],input[type='radio']{
+    margin-right: .25em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #858585;
+    border-radius: 1px;
+    background: #0e0e0e;
+}
+
+.filterBox ul li > ul > li > label { 
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	display: flex;
+	align-items: center;
+} 
+
+.filterBox ul li > ul > li:hover, 
+.filterBox ul li > ul > li.focus  { 
+  border: 1px gray solid; 
+  width: 12em; 
+} 
